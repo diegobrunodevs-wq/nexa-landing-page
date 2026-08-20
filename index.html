@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexa — Gestão inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">N</span>
+                <span>NEXA</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#produto">Produto</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#resultados">Resultados</a>
+                <a href="#precos">Preços</a>
+            </nav>
+
+            <!-- NOVO: botão do menu mobile -->
+            <button class="mobile-menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <a href="#precos" class="nav-button">
+                Começar agora <span>→</span>
+            </a>
+
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        A nova geração da gestão empresarial
+                    </div>
+
+                    <h1>
+                        Sua empresa.
+                        <span>Mais inteligente.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Centralize projetos, equipes e indicadores
+                        em uma única plataforma criada para empresas
+                        que querem crescer.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#precos" class="primary-button">
+                            Começar gratuitamente <span>↗</span>
+                        </a>
+                        <a href="#produto" class="secondary-button">
+                            ▶ Ver como funciona
+                        </a>
+                    </div>
+
+                    <div class="hero-proof">
+                        <div class="avatars">
+                            <span>JD</span>
+                            <span>AM</span>
+                            <span>RL</span>
+                            <span>+</span>
+                        </div>
+                        <div class="proof-text">
+                            <strong>+2.500 equipes</strong>
+                            <small>já utilizam a Nexa</small>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="dashboard" aria-label="Painel de indicadores Nexa">
+                    <div class="dashboard-topbar">
+                        <div>
+                            <p class="dashboard-eyebrow"><span></span> Visão geral</p>
+                            <h2>Nexa Analytics</h2>
+                        </div>
+                        <button class="dashboard-menu" type="button" aria-label="Mais opções">
+                            <i></i><i></i><i></i>
+                        </button>
+                    </div>
+
+                    <div class="dashboard-period">
+                        <span>Desempenho mensal</span>
+                        <strong>Outubro <b>⌄</b></strong>
+                    </div>
+
+                    <div class="dashboard-metrics">
+                        <div class="metric-revenue">
+                            <span class="metric-label">Receita total</span>
+                            <strong>R$ 284.520</strong>
+                            <small><b>↗ 24,8%</b> vs. mês anterior</small>
+                        </div>
+                        <div class="metric-projects">
+                            <span class="metric-label">Projetos</span>
+                            <strong>42</strong>
+                            <small>ativos agora</small>
+                            <span class="project-orbit"><i></i></span>
+                        </div>
+                    </div>
+
+                    <div class="chart-section">
+                        <div class="chart-heading">
+                            <div>
+                                <span class="metric-label">Fluxo de receita</span>
+                                <strong>R$ 68.240 <em>esta semana</em></strong>
+                            </div>
+                            <div class="chart-legend"><span></span> Receita</div>
+                        </div>
+                        <div class="chart" aria-hidden="true">
+                            <div class="chart-grid"></div>
+                            <svg viewBox="0 0 420 150" preserveAspectRatio="none">
+                                <defs>
+                                    <linearGradient id="chartFill" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0%" stop-color="#9479ff" stop-opacity=".32" />
+                                        <stop offset="100%" stop-color="#9479ff" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                                <path class="chart-area"
+                                    d="M0 122 C24 116, 35 104, 58 108 S84 84, 110 90 S140 100, 166 73 S200 77, 225 68 S256 87, 282 54 S316 59, 340 40 S382 50, 420 15 L420 150 L0 150 Z" />
+                                <path class="chart-line"
+                                    d="M0 122 C24 116, 35 104, 58 108 S84 84, 110 90 S140 100, 166 73 S200 77, 225 68 S256 87, 282 54 S316 59, 340 40 S382 50, 420 15" />
+                                <circle cx="420" cy="15" r="4" />
+                            </svg>
+                            <div class="chart-labels">
+                                <span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span><span>Dom</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="goal-progress">
+                        <div class="goal-heading">
+                            <div><span class="metric-label">Meta mensal</span><strong>R$ 350.000</strong></div>
+                            <b>82%</b>
+                        </div>
+                        <div class="progress-track"><span></span></div>
+                        <small>Faltam R$ 65.480 para atingir sua meta.</small>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+
+        <section class="social-proof" aria-label="Empresas que confiam na Nexa">
+            <div class="social-proof-container">
+                <p class="social-proof-caption">
+                    Confiado por equipes de alto desempenho
+                </p>
+
+                <div class="partner-logos">
+                    <span class="partner-logo vertex">vertex<span>.</span></span>
+                    <span class="partner-logo orbit"><i></i>orbit</span>
+                    <span class="partner-logo nuvem">nuvem</span>
+                    <span class="partner-logo zenith">zenith<span>↗</span></span>
+                    <span class="partner-logo pulse"><i></i>pulse</span>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!-- BLOCO 07 — FEATURES -->
+        <section class="features" id="recursos">
+            <div class="features-container">
+                <div class="features-heading">
+                    <div class="features-label">
+                        <span></span>
+                        Controle em um só lugar
+                    </div>
+
+                    <h2>Tudo o que sua operação precisa.</h2>
+
+                    <p>
+                        Centralize processos, acompanhe resultados e tome decisões
+                        melhores em uma única plataforma.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+
+                    <!-- FEATURE 01 -->
+                    <article class="feature-card feature-projects">
+                        <div class="feature-top">
+                            <span class="feature-number">01</span>
+                        </div>
+
+                        <div class="feature-copy">
+                            <h3>Projetos centralizados</h3>
+                            <p>
+                                Organize projetos, tarefas e prazos em uma
+                                visão clara para toda a equipe.
+                            </p>
+                        </div>
+
+                        <div class="project-preview">
+                            <div class="preview-header">
+                                <span>Projetos em andamento</span>
+                                <strong>12</strong>
+                            </div>
+
+                            <div class="project-row">
+                                <span><i></i> Projeto Alpha</span>
+                                <b>82%</b>
+                            </div>
+                            <div class="progress"><span style="width:82%"></span></div>
+
+                            <div class="project-row">
+                                <span><i></i> Site Orbit</span>
+                                <b>64%</b>
+                            </div>
+                            <div class="progress"><span style="width:64%"></span></div>
+
+                            <div class="project-row">
+                                <span><i></i> Campanha Pulse</span>
+                                <b>91%</b>
+                            </div>
+                            <div class="progress"><span style="width:91%"></span></div>
+                        </div>
+                    </article>
+
+
+                    <!-- FEATURE 02 -->
+                    <article class="feature-card feature-finance">
+                        <div class="feature-top">
+                            <span class="feature-number">02</span>
+                        </div>
+
+                        <div class="feature-copy">
+                            <h3>Visão financeira em tempo real</h3>
+                            <p>
+                                Acompanhe receitas, despesas e indicadores
+                                financeiros sem depender de planilhas espalhadas.
+                            </p>
+                        </div>
+
+                        <div class="finance-preview">
+                            <div class="finance-value">
+                                <small>Receita este mês</small>
+                                <strong>R$ 84.240</strong>
+                            </div>
+
+                            <span class="finance-growth">+18,4%</span>
+
+                            <div class="finance-bars">
+                                <i style="height:38%"></i>
+                                <i style="height:52%"></i>
+                                <i style="height:45%"></i>
+                                <i style="height:68%"></i>
+                                <i style="height:57%"></i>
+                                <i style="height:82%"></i>
+                                <i style="height:96%"></i>
+                            </div>
+
+                            <div class="finance-line">
+                                <span>01 Out</span>
+                                <span>31 Out</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- FEATURE 03 -->
+                    <article class="feature-card feature-team">
+                        <div class="feature-top">
+                            <span class="feature-number">03</span>
+                        </div>
+
+                        <div class="feature-copy">
+                            <h3>Equipes e resultados</h3>
+                            <p>
+                                Entenda o desempenho da sua equipe e
+                                acompanhe os resultados que realmente importam.
+                            </p>
+                        </div>
+
+                        <div class="team-preview">
+
+                            <div class="team-head">
+                                <div class="avatars">
+                                    <span>AM</span>
+                                    <span>RL</span>
+                                    <span>GF</span>
+                                    <span>+</span>
+                                </div>
+
+                                <small>Em ritmo</small>
+                            </div>
+
+                            <div class="team-score">
+                                <div class="score-circle">
+                                    <strong>87</strong>
+                                    <span>score</span>
+                                </div>
+
+                                <div>
+                                    <small>Produtividade da equipe</small>
+                                    <strong>+12%</strong>
+                                    <span>esta semana</span>
+                                </div>
+                            </div>
+
+                            <div class="team-line">
+                                <span></span>
+                            </div>
+
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- BLOCO 08 — RESULTADOS / MÉTRICAS -->
+        <section class="results" id="resultados">
+            <div class="results-container">
+                <div class="results-intro">
+                    <div class="results-label">
+                        <span></span>
+                        Resultados
+                    </div>
+
+                    <h2>Resultados que aparecem no negócio.</h2>
+
+                    <p>
+                        Mais clareza para sua operação, mais velocidade para sua equipe
+                        e melhores decisões para sua empresa.
+                    </p>
+                </div>
+
+                <div class="results-data">
+
+                    <div class="result-item">
+                        <strong>+42%</strong>
+                        <span>Produtividade</span>
+                    </div>
+
+                    <div class="result-item">
+                        <strong>-31%</strong>
+                        <span>Tempo operacional</span>
+                    </div>
+
+                    <div class="result-item">
+                        <strong>2.500+</strong>
+                        <span>Equipes</span>
+                    </div>
+
+                    <div class="result-item">
+                        <strong>99,9%</strong>
+                        <span>Disponibilidade</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- BLOCO 09 — PRODUCT SHOWCASE -->
+        <section class="showcase" id="produto">
+            <div class="showcase-container">
+                <div class="showcase-heading">
+                    <div class="showcase-label"><span></span> Veja a Nexa em ação</div>
+                    <h2>Tudo o que sua equipe precisa, <br>em uma única visão.</h2>
+                    <p>
+                        Projetos, indicadores e equipes conectados em uma experiência
+                        simples e inteligente.
+                    </p>
+                </div>
+
+                <div class="app-showcase">
+                    <header class="app-topbar">
+                        <div class="app-brand">
+                            <span class="app-brand-icon">N</span>
+                            <span>NEXA</span>
+                        </div>
+
+                        <div class="app-profile">
+                            <span class="app-notification"></span>
+                            <span class="app-date">Outubro, 2026</span>
+                            <span class="app-avatar">JD</span>
+                        </div>
+                    </header>
+
+                    <div class="app-layout">
+                        <aside class="app-sidebar">
+                            <p class="sidebar-label">Workspace</p>
+
+                            <nav class="app-nav">
+                                <a class="active" href="#produto"><span class="nav-mark overview"></span>Visão geral</a>
+                                <a href="#produto"><span class="nav-mark projects"></span>Projetos <b>12</b></a>
+                                <a href="#produto"><span class="nav-mark finance"></span>Financeiro</a>
+                                <a href="#produto"><span class="nav-mark team"></span>Equipe</a>
+                                <a href="#produto"><span class="nav-mark reports"></span>Relatórios</a>
+                            </nav>
+
+                            <div class="sidebar-bottom">
+                                <span class="sidebar-line"></span>
+                                <a href="#produto"><span class="nav-mark settings"></span>Configurações</a>
+                                <div class="upgrade-card">
+                                    <span>Plano Scale</span>
+                                    <p>12 dias restantes</p>
+                                    <div><i></i></div>
+                                </div>
+                            </div>
+                        </aside>
+
+                        <div class="app-content">
+                            <div class="app-welcome">
+                                <div>
+                                    <p>Terça-feira, 14 de outubro</p>
+                                    <h3>Olá, João <span>✦</span></h3>
+                                </div>
+                                <button type="button">+ Novo projeto</button>
+                            </div>
+
+                            <div class="app-summary">
+                                <div class="summary-card revenue-summary">
+                                    <span>Receita total</span>
+                                    <strong>R$ 284.520</strong>
+                                    <small><b>↗ 24,8%</b> este mês</small>
+                                    <i class="summary-glow"></i>
+                                </div>
+
+                                <div class="summary-card">
+                                    <span>Projetos ativos</span>
+                                    <strong>42</strong>
+                                    <small>8 entregas esta semana</small>
+                                </div>
+
+                                <div class="summary-card team-summary">
+                                    <span>Performance da equipe</span>
+                                    <strong>86%</strong>
+                                    <div class="mini-progress"><i></i></div>
+                                </div>
+                            </div>
+
+                            <div class="app-main-grid">
+                                <div class="performance-panel">
+                                    <div class="panel-title">
+                                        <div>
+                                            <span>Desempenho</span>
+                                            <strong>Visão financeira</strong>
+                                        </div>
+                                        <button type="button">Mensal <b>⌄</b></button>
+                                    </div>
+
+                                    <div class="performance-chart" aria-hidden="true">
+                                        <div class="performance-grid"></div>
+                                        <svg viewBox="0 0 620 210" preserveAspectRatio="none">
+                                            <defs>
+                                                <linearGradient id="showcaseArea" x1="0" x2="0" y1="0" y2="1">
+                                                    <stop offset="0%" stop-color="#977cff" stop-opacity=".3" />
+                                                    <stop offset="100%" stop-color="#977cff" stop-opacity="0" />
+                                                </linearGradient>
+                                            </defs>
+                                            <path class="showcase-area"
+                                                d="M0 165 C34 154, 58 146, 89 153 S132 125, 164 134 S208 156, 240 113 S282 124, 314 104 S357 122, 389 82 S437 88, 468 62 S518 78, 551 40 S585 45, 620 20 L620 210 L0 210 Z" />
+                                            <path class="showcase-line"
+                                                d="M0 165 C34 154, 58 146, 89 153 S132 125, 164 134 S208 156, 240 113 S282 124, 314 104 S357 122, 389 82 S437 88, 468 62 S518 78, 551 40 S585 45, 620 20" />
+                                            <circle cx="620" cy="20" r="5" />
+                                        </svg>
+                                        <div class="chart-months">
+                                            <span>Mai</span><span>Jun</span><span>Jul</span>
+                                            <span>Ago</span><span>Set</span><span>Out</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="activity-panel">
+                                    <div class="panel-title">
+                                        <div>
+                                            <span>Atividade recente</span>
+                                            <strong>Em andamento</strong>
+                                        </div>
+                                        <a href="#produto">Ver tudo</a>
+                                    </div>
+
+                                    <div class="activity-list">
+                                        <div class="activity-item">
+                                            <span class="activity-icon purple">✓</span>
+                                            <div><strong>Projeto Alpha atualizado</strong><small>há 12 minutos</small>
+                                            </div>
+                                        </div>
+                                        <div class="activity-item">
+                                            <span class="activity-icon blue">↗</span>
+                                            <div><strong>Meta mensal atingiu 82%</strong><small>há 48 minutos</small>
+                                            </div>
+                                        </div>
+                                        <div class="activity-item">
+                                            <span class="activity-icon green">+</span>
+                                            <div><strong>Marina entrou na equipe</strong><small>há 2 horas</small></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- BLOCO 10 — DEPOIMENTO / CASE -->
+        <section class="testimonial">
+            <div class="testimonial-container">
+                <div class="testimonial-mark" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="testimonial-content">
+                    <p class="testimonial-label">Histórias de quem cresce com a Nexa</p>
+
+                    <blockquote>
+                        “A Nexa transformou a maneira como nossa equipe acompanha a operação.”
+                    </blockquote>
+
+                    <div class="testimonial-divider"></div>
+
+                    <p class="testimonial-support">
+                        Antes da Nexa, nossa operação dependia de ferramentas espalhadas.
+                        Hoje, toda a equipe trabalha olhando para a mesma informação.
+                    </p>
+
+                    <footer class="testimonial-author">
+                        <span class="author-monogram">MC</span>
+                        <div>
+                            <strong>Diego Bruno</strong>
+                            <small>COO — Vertex</small>
+                        </div>
+                        <span class="vertex-signature">vertex<span>.</span></span>
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- BLOCO 11 — CTA FINAL -->
+        <section class="final-cta" id="precos">
+            <div class="final-cta-glow" aria-hidden="true"></div>
+
+            <div class="final-cta-container">
+                <div class="final-cta-symbol" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <p class="final-cta-label">A próxima fase começa agora</p>
+
+                <h2>
+                    Pronto para trabalhar<br>
+                    <span>de forma mais inteligente?</span>
+                </h2>
+
+                <p class="final-cta-description">
+                    Transforme sua operação, conecte sua equipe e tenha mais controle
+                    sobre seus resultados.
+                </p>
+
+                <div class="final-cta-actions">
+                    <a href="#produto" class="final-cta-primary">
+                        Começar agora <span>→</span>
+                    </a>
+
+                    <a href="#produto" class="final-cta-secondary">
+                        Ver como funciona
+                    </a>
+                </div>
+
+                <div class="final-cta-brand" aria-hidden="true">
+                    <span class="final-brand-icon">N</span>
+                    NEXA
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- BLOCO 12 — FOOTER -->
+        <footer class="site-footer">
+            <div class="footer-container">
+
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <a href="#" class="footer-logo" aria-label="Nexa - início">
+                            <span class="logo-icon">N</span>
+                            <span>NEXA</span>
+                        </a>
+
+                        <p>
+                            Gestão inteligente para empresas
+                            que querem crescer.
+                        </p>
+                    </div>
+
+                    <nav class="footer-column" aria-label="Produto">
+                        <h3>Produto</h3>
+                        <a href="#produto">Produto</a>
+                        <a href="#recursos">Recursos</a>
+                        <a href="#resultados">Resultados</a>
+                        <a href="#precos">Preços</a>
+                    </nav>
+
+                    <nav class="footer-column" aria-label="Empresa">
+                        <h3>Empresa</h3>
+                        <a href="#">Sobre</a>
+                        <a href="#">Contato</a>
+                        <a href="#">Carreiras</a>
+                    </nav>
+
+                    <nav class="footer-column" aria-label="Redes sociais">
+                        <h3>Social</h3>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">GitHub</a>
+                    </nav>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© 2026 Nexa. Todos os direitos reservados.</p>
+
+                    <div class="footer-legal">
+                        <a href="#">Termos de uso</a>
+                        <a href="#">Privacidade</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
