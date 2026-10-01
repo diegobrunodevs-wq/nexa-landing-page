@@ -24,4 +24,4 @@ Próximo:
 
 ## Regra de design
 Construir incrementalmente. Não refazer blocos já aprovados.
-Na etapa final, revisar bordas, radius, sombras, cards, espaçamentos e detalhes para evitar aparência genérica de site gerado por IA.
+Na etapa final, revisar bordas, radius, sombras, cards, espaçamentos e detalhes para evitar aparência genérica.
